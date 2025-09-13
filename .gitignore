@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.egg-info/
+.venv/
+
+# Environment
+.env
+.env.*
+*.secret
+
+# Output files
+output/
+*.xlsx
+*.csv
+*.pdf
