@@ -4,7 +4,10 @@ on:
   schedule:
     # Her ayın 1. günü saat 09:00 UTC (Türkiye için 12:00)
     - cron: "0 9 1 * *"
-  workflow_dispatch: # Manuel çalıştırma için
+  workflow_dispatch:   # Manuel tetikleme (Actions sekmesinden Run Workflow)
+  push:                # Commit sonrası test amaçlı tetikleme
+    branches:
+      - main
 
 jobs:
   run-bot:
