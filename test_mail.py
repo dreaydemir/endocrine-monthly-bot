@@ -2,7 +2,7 @@ import yagmail
 
 # Buraya kendi bilgilerini yaz
 EMAIL_ADDRESS = "ensaraydemir@gmail.com"
-EMAIL_APP_PASSWORD = "kviy swzi juva slmy"   # Google App Password (16 haneli)
+EMAIL_APP_PASSWORD = "elpc rqfq hbpm orwq"   # Google App Password (16 haneli)
 EMAIL_TO = "ensaraydemir@gmail.com"
 
 try:
